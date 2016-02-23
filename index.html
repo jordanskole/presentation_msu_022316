@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Auto Rivalry</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="bower_components/reveal.js/css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'bower_components/reveal.js/css/print/pdf.css' : 'bower_components/reveal.js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>Auto Rivalry</h1>
+          <h3><i class="fa fa-tachometer"></i></h3>
+					<h3>A completely biased comparison engine for automotive landing pages.</h3>
+					<p>
+						<small>Created by <a href="http://jordanskole.github.io/">Jordan Skole</a> / <a href="http://twitter.com/jordanskole">@jordanskole</a></small>
+					</p>
+				</section>
+
+        <section>
+          <h2>About Me</h2>
+          <h3><i class="fa fa-pagelines"></i> <i class="fa fa-graduation-cap"></i>  <i class="fa fa-line-chart"></i>  <i class="fa fa-glass"></i></h3>
+          <ul>
+            <li>Brandery Alumni (Benchmark Intelligence)</li>
+            <li>Campus Director (The Iron Yard)</li>
+            <li>Growth Engineer (Ambassador)</li>
+            <li>Wine Geek (Not snob, big difference)</li>
+          </ul>
+        </section>
+
+        <section id="purpose">
+          <h2>AR-Purpose</h2>
+          <ul>
+            <li class="fragment" data-fragment-index="1">Tier I (General Motors)</li>
+            <li class="fragment" data-fragment-index="3">Tier II (Chevy Drives the Motor City)</li>
+            <li class="fragment" data-fragment-index="2">Tier III (Jefferson Chevrolet)</li>
+          </ul>
+          <div class="fragment" data-fragment-index="4">
+            <p>
+              <em>Example search: <a href="https://www.google.com/search?q=honda+accord+vs+toyota+camry&oq=honda+accord+vs+toyota+camry&aqs=chrome..69i57j69i61j69i60j0l3.601j0j1&sourceid=chrome&es_sm=119&ie=UTF-8#safe=off&q=honda%20accord%20vs%20toyota%20camry">"Chevy Malibu vs. Honda Accord"</a></em>
+            </p>
+          </div>
+        </section>
+
+        <section>
+          <section id="technology">
+            <h2>Technology</h2>
+            <h2><i class="fa fa-hand-o-down"></i></h2>
+          </section>
+          <section>
+            <h3>From Google</h3>
+            <ul>
+              <li class="fragment">AngularJS (Admin)</li>
+              <li class="fragment">Angular Material Design (Admin)</li>
+              <li class="fragment">Firebase (DB)</li>
+            </ul>
+          </section>
+          <section>
+            <h3>Site Architecture</h3>
+            <img src="img/stack.png" alt="Site Arch/Stack" height="500" />
+          </section>
+        </section>
+
+        <section id="apps">
+          <h2>Applications</h2>
+          <ul>
+            <li><a href="http://alpha.autorivalry.com/">"Admin"</a></li>
+            <li><a href="http://localhost:3000/v1/matchups/-K6faTutivaLfVqSf3y6">"Render"</li>
+          </ul>
+        </section>
+
+        <section id="thanks">
+          <h2>Thank You</h2>
+          <ul>
+            <li><a href="http://jordanskole.github.io/presentation_GDG_011216/">http://jordanskole.github.io/presentation_GDG_011216/</a></li>
+            <li><a href="https://github.com/jordanskole"><i class="fa fa-github"></i> /jordanskole</a></li>
+            <li><a href="https://twitter.com/jordanskole"><i class="fa fa-twitter"></i> @jordanskole</a></li>
+            <li><a href="https://linkedin.com/in/jordanskole"><i class="fa fa-linkedin"></i> /in/jordanskole</a></li>
+
+          </ul>
+        </section>
+
+			</div>
+
+		</div>
+
+		<script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+		<script src="bower_components/reveal.js/js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
