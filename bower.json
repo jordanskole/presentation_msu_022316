@@ -1,0 +1,22 @@
+{
+  "name": "GDG-Presentation",
+  "homepage": "https://jordanskole.github.io/presentation_GDG_011216/#/",
+  "description": "This is a presentation for a demo talk I am giving to the Google Developers Group at Quicken Loans on 01/12/16.",
+  "main": "index.html",
+  "moduleType": [],
+  "authors": [
+    "Jordan Skole"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "reveal.js": "~3.2.0"
+  }
+}

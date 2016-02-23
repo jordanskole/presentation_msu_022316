@@ -1,0 +1,24 @@
+{
+  "name": "gdg-presentation",
+  "version": "1.0.0",
+  "description": "A presentation for a talk I am giving to the Google Developers Group on 01/12/16 at Quicken Loans.",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanskole/presentation_GDG_011216.git"
+  },
+  "author": "Jordan Skole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanskole/presentation_GDG_011216/issues"
+  },
+  "homepage": "https://github.com/jordanskole/presentation_GDG_011216#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.0",
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
